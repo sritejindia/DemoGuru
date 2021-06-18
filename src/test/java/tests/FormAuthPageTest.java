@@ -18,7 +18,7 @@ public class FormAuthPageTest {
     public void before() {
         System.setProperty("webdriver.chrome.driver","chromedriver");
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("--headless");
+       // options.addArguments("--headless");
         driver = new ChromeDriver(options);
     }
 
